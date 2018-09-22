@@ -1,0 +1,40 @@
+{
+  "conjunto":[
+    { "value":"A"},
+    {"value":"B"},
+    {"value":"C"},
+    {"value":"D"},
+    {"value":"E"},
+    {"value":"F"}
+
+  ],
+  "dependencias_funcionales":[
+    {"implicante": "A B",
+      "implicado": "C"
+    },
+    {"implicante": "D",
+      "implicado": "E F"
+    },
+    {"implicante": "C",
+      "implicado": "A"
+    },
+    {"implicante": "B E",
+      "implicado": "C"
+    },
+    {"implicante": "B C",
+      "implicado": "D"
+    },
+    {"implicante": "C F",
+      "implicado": "B D"
+    },
+    {"implicante": "A C D",
+      "implicado": "B"
+    },
+    {"implicante": "C E",
+      "implicado": "A F"
+    }
+  ]
+
+}
+
+
